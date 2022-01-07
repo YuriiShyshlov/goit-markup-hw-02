@@ -1,0 +1,55 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --hero-text-color: #e5e5e5;
+  --accent-text-color: #2196f3;
+  --primary-bg-color: white;
+}
+
+.body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--hero-text-color);
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link .carrent {
+  color: var(--accent-text-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+}
+/*features*/
+
+.features-list .title {
+  color: var(--primary-text-color);
+}
+.title-text {
+  color: var(--title-text-color);
+}
+
+/*Buttons*/
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.button.primary {
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
+}
