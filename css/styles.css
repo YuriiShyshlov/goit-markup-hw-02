@@ -4,13 +4,15 @@
   --hero-text-color: #e5e5e5;
   --accent-text-color: #2196f3;
   --primary-bg-color: white;
+  --secondary-bg-color: #2f303a;
 }
 
 .body {
   background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 
   font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -19,16 +21,18 @@
 
 .logo {
   color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.blue {
+  color: var(--accent-text-color);
+}
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 
 .hero-title {
@@ -84,11 +88,11 @@
   letter-spacing: 0.03em;
 }
 .title-text {
-  color: var(--title-text-color)
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
 }
 
 /*Buttons*/
@@ -109,11 +113,70 @@
 .button.secondary {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 .button.secondary :hover,
 .button.secondary :focus {
   color: var(--hero-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 
+.footer {
+  background-color: var(--secondary-bg-color);
+}
 
+.adress .text {
+  color: var(--hero-text-color);
+}
+.adress {
+  color: var(--hero-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.adress .logo {
+  color: var(--accent-text-color);
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.white {
+  color: var(--hero-text-color);
+}
+
+.adress .link {
+  color: var(--title-text-color);
+}
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-text-color);
+}
+.adress .link .carrent {
+  color: var(--accent-text-color);
+}
+.subject {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.subject .text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
