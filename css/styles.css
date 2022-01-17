@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
-  --hero-text-color: #e5e5e5;
+  --hero-text-color: #ffffff;
   --accent-text-color: #2196f3;
   --primary-bg-color: white;
   --secondary-bg-color: #2f303a;
@@ -16,7 +16,7 @@ body {
   line-height: 1.71;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
@@ -38,6 +38,7 @@ a {
 }
 .logo {
   color: var(--primary-text-color);
+  font-weight: 700;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
@@ -81,15 +82,11 @@ a {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-text-color);
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-text-color);
-}
 .link-current {
   color: var(--accent-text-color);
 }
@@ -98,8 +95,16 @@ a {
 
 .auth-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
 .section-title {
   color: var(--primary-text-color);
   font-weight: bold;
@@ -107,6 +112,10 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.img {
+  background-color: var(--primary-bg-color);
 }
 /*features*/
 
@@ -129,10 +138,11 @@ a {
 }
 .title-text {
   color: var(--primary-text-color);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /*Buttons*/
@@ -166,15 +176,13 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.14;
+  border: 0ex;
 }
 
 .footer {
   background-color: var(--secondary-bg-color);
 }
 
-.adress .text {
-  color: var(--hero-text-color);
-}
 .adress {
   color: var(--hero-text-color);
   font-family: Roboto, sans-serif;
@@ -200,10 +208,14 @@ a {
 
 .adress .link {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.adress .link:hover,
-.adress .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-text-color);
 }
 
