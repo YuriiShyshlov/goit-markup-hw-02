@@ -72,8 +72,6 @@ body {
   text-transform: uppercase;
 }
 
-.hero .text {
-}
 .site-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
